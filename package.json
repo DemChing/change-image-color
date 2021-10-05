@@ -1,0 +1,32 @@
+{
+  "name": "change-image-color",
+  "description": "NPM package with CLI to change colors in image",
+  "version": "0.0.0",
+  "bin": {
+    "change-image-color": "src/cli.js"
+  },
+  "keywords": [
+    "image",
+    "color",
+    "cli",
+    "change",
+    "replace",
+    "png",
+    "jpg",
+    "jpeg"
+  ],
+  "author": "Dem Ching",
+  "repository": "github:demching/change-image-color",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "yarn.lock"
+  ],
+  "dependencies": {
+    "colord": "^2.8.0",
+    "delta-e": "^0.0.8",
+    "inquirer": "^8.1.5",
+    "jimp": "^0.16.1"
+  }
+}
