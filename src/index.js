@@ -83,7 +83,7 @@ module.exports = ({
 
             let paths = File.getPaths(src, recursive);
 
-            if (Buffer.isBuffer(paths) || typeof paths === 'string') {
+            if (Buffer.isBuffer(paths) || typeof paths === 'string' || paths instanceof Jimp) {
                 paths = [paths];
             }
             paths.reduce((p, path) => p.then(results => {
