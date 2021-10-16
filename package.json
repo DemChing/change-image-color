@@ -1,7 +1,7 @@
 {
   "name": "change-image-color",
   "description": "NPM package with CLI to change colors in image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "change-image-color": "src/cli.js"
   },
